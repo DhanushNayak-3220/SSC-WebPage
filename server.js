@@ -7,7 +7,7 @@ const app = express();
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/api/images', (req, res) => {
-    const galleryFolder = path.join(__dirname, 'public/images/gallery');
+    const galleryFolder = path.join(__dirname, 'images/gallery');
     console.log('Gallery folder path:', galleryFolder);
 
     fs.readdir(galleryFolder, (err, files) => {
@@ -24,7 +24,6 @@ app.get('/api/images', (req, res) => {
         res.json(imagePaths); // Send image paths as relative URLs
     });
 });
-
 
 // Set up the main route to serve the HTML file
 app.get('/', (req, res) => {
