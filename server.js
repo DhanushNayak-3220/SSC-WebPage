@@ -28,7 +28,7 @@ app.get('/api/images', (req, res) => {
 
 // Set up the main route to serve the HTML file
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'views/index.html'));
+    res.sendFile(path.join(__dirname, 'index.html'));
 });
 
 // Start the server
