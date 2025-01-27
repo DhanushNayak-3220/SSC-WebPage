@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/036/729/675/non_2x/ai-generated-banquet-catering-in-san-diego-county-mecca-food-services-free-photo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: gold;
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: gold;
+    padding: 1rem 2rem;
+    border-bottom: 2px solid #ffcc00;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+header img {
+    height: 90px;
+    border-radius: 10px;
+}
+
+header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0 auto;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    flex-grow: 1;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    gap: 1rem;
+}
+
+nav a {
+    color: #ffcc00;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    background-image: url('https://static.vecteezy.com/system/resources/previews/036/729/675/non_2x/ai-generated-banquet-catering-in-san-diego-county-mecca-food-services-free-photo.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gold;
+    text-align: center;
+    padding: 2rem;
+    background-position: center;
+    margin-top: 0;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.hero h2:hover {
+    color: #ffcc00;
+    transform: scale(1.1);
+}
+
+.hero p {
+    font-size: 2rem;
+    color: gold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease;
+    animation: glow 1.5s ease-in-out infinite alternate;
+}
+
+.hero p:hover {
+    color: #ffcc00;
+    transform: scale(1.1);
+}
+
+.cta-button {
+    background-color: #ffcc00;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #e6b800;
+}
+
+section {
+    padding: 4rem 2rem;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    margin: 2rem auto;
+    max-width: 800px;
+}
+
+section:nth-child(odd) {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+    }
+    .contact-card{
+        width: 400px;
+        height: 300px;
+        }
+
+}
+
+.contact-card{
+width: 800px;
+height: 400px;
+}
+.contact-card img{
+    width: 100%;
+    height: 100%;
+}
+
+.gallery-item{
+    width: 800px;
+    height: 400px;
+}
+.gallery-image{
+    width: 100%;
+    height: 100%;
+}
