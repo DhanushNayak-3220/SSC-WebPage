@@ -54,19 +54,32 @@
 <section id="gallery">
     <h2>Gallery</h2>
     <p>Check out some of our catering highlights:</p>
-    <ul>
-        <li><img src="images/gallery/Media.jfif" style="width:100%;border-radius:10px;"/></li>
-        <li><img src="images/gallery/Media (1).jfif" style="width:100%;border-radius:10px;"/></li>
-        <li><img src="images/gallery/Media (2).jfif" style="width:100%;border-radius:10px;"/></li>
-        <li><img src="images/gallery/Media (3).jfif" style="width:100%;border-radius:10px;"/></li>
-        <li><img src="images/gallery/Media (4).jfif" style="width:100%;border-radius:10px;"/></li>
-        <li><img src="images/gallery/Media (5).jfif" style="width:100%;border-radius:10px;"/></li>
-        <li><img src="images/gallery/Media (6).jfif" style="width:100%;border-radius:10px;"/></li>
-        <li><img src="images/gallery/Media (7).jfif" style="width:100%;border-radius:10px;"/></li>
-        <li><img src="images/gallery/Media (8).jfif" style="width:100%;border-radius:10px;"/></li>
-        <li><img src="images/gallery/Media (9).jfif" style="width:100%;border-radius:10px;"/></li>
-        <li><img src="images/gallery/Media (10).jfif" style="width:100%;border-radius:10px;"/></li>
+    <ul class="image-gallery">
+        <li><img src="images/gallery/Media.jfif" alt="Image 1" onclick="openLightbox(this)"></li>
+        <li><img src="images/gallery/Media (1).jfif" alt="Image 2" onclick="openLightbox(this)"></li>
+        <li><img src="images/gallery/Media (2).jfif" alt="Image 3" onclick="openLightbox(this)"></li>
+        <li><img src="images/gallery/Media (3).jfif" alt="Image 4" onclick="openLightbox(this)"></li>
+        <li><img src="images/gallery/Media (4).jfif" alt="Image 5" onclick="openLightbox(this)"></li>
+        <li><img src="images/gallery/Media (5).jfif" alt="Image 6" onclick="openLightbox(this)"></li>
+        <li><img src="images/gallery/Media (6).jfif" alt="Image 7" onclick="openLightbox(this)"></li>
+        <li><img src="images/gallery/Media (7).jfif" alt="Image 8" onclick="openLightbox(this)"></li>
+        <li><img src="images/gallery/Media (8).jfif" alt="Image 9" onclick="openLightbox(this)"></li>
+        <li><img src="images/gallery/Media (9).jfif" alt="Image 10" onclick="openLightbox(this)"></li>
+        <li><img src="images/gallery/Media (10).jfif" alt="Image 11" onclick="openLightbox(this)"></li>
     </ul>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close" onclick="closeLightbox()">&times;</span>
+        <img id="lightboxImage" class="lightbox-content" alt="Lightbox image">
+    </div>
+    <script src="scripts.js"></script>
 </section>
+
+<footer>
+    <p>&copy; 2025 Shri Sai Caterers. All rights reserved.</p>
+    <p>Follow us on <a href="https://www.instagram.com/shri_sai_caterers_kuthar?igsh=bGtya3N5NDU4aGZz" target="_blank" class="gold-link">Instagram</a></p>
+    <p>Page Made By Dhanush Nayak</p>
+</footer>
+<script src="scrollDown.js"></script>
 </body>
 </html>
