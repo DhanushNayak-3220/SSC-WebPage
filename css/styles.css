@@ -57,7 +57,7 @@ nav a:hover {
 }
 
 .hero {
-    background-image: url('https://static.vecteezy.com/system/resources/previews/036/729/675/non_2x/ai-generated-banquet-catering-in-san-diego-county-mecca-food-services-free-photo.jpg');
+    background-image: url('https://image.slidesdocs.com/responsive-images/docs/a-poster-with-a-festive-red-border-and-chinese-inspired-design-page-border-background-word-template_e09322e3d1__1131_1600.jpg');
     background-size: cover;
     height: 100vh;
     display: flex;
@@ -135,21 +135,10 @@ section:nth-child(odd) {
     header h1 {
         font-size: 1.8rem;
     }
-    .contact-card{
-        width: 400px;
-        height: 300px;
-        }
+
 
 }
 
-.contact-card{
-width: 800px;
-height: 400px;
-}
-.contact-card img{
-    width: 100%;
-    height: 100%;
-}
 
 .gallery-item{
     width: 800px;
@@ -158,4 +147,13 @@ height: 400px;
 .gallery-image{
     width: 100%;
     height: 100%;
+}
+a.gold-link {
+    color: blue ;
+    font-weight: bold;
+    text-decoration: none; /* Optional: Remove underline */
+}
+
+a.gold-link:hover {
+    text-decoration: underline; /* Optional: Add underline on hover */
 }
