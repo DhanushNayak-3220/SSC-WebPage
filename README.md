@@ -1,7 +1,5 @@
 # Static Web Page for Shri Sai Caterers  
 
-![Netlify Status](https://api.netlify.com/api/v1/badges/YOUR_NETLIFY_BADGE_ID/deploy-status)
-
 ## 🌐 Live Demo  
 The website is live at:  
 🔗 [Shri Sai Caterers](https://shrisaicaterers.netlify.app/)
